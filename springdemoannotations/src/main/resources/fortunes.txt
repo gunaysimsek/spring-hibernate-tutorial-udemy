@@ -1,0 +1,4 @@
+lucky
+not lucky
+lovely
+sad
