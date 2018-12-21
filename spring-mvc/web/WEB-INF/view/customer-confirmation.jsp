@@ -15,17 +15,17 @@
 </head>
 <body>
 
-The student is confirmed: ${student.firstName}
+The customer is confirmed: ${customer.firstName}
 
-<br>Last Name:${student.lastName}
-<br>Country:${student.country}
-<br>Favorite Language:${student.favoriteLanguage}
-<br>Operating Systems:
-<ul>
-    <c:forEach var = "temp" items ="${student.operatingSystems}">
-        <li>${temp}</li>
-    </c:forEach>
-</ul>
+<br>Last Name:${customer.lastName}
+<%--<br>Country:${student.country}--%>
+<%--<br>Favorite Language:${student.favoriteLanguage}--%>
+<%--<br>Operating Systems:--%>
+<%--<ul>--%>
+    <%--<c:forEach var = "temp" items ="${student.operatingSystems}">--%>
+        <%--<li>${temp}</li>--%>
+    <%--</c:forEach>--%>
+<%--</ul>--%>
 
 </body>
 </html>
