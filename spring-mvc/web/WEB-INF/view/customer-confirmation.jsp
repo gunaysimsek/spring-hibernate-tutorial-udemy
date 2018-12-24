@@ -18,6 +18,10 @@
 The customer is confirmed: ${customer.firstName}
 
 <br>Last Name:${customer.lastName}
+
+<br>Free passes: ${customer.freePasses}
+
+<br>Postal code: ${customer.postalCode}
 <%--<br>Country:${student.country}--%>
 <%--<br>Favorite Language:${student.favoriteLanguage}--%>
 <%--<br>Operating Systems:--%>
