@@ -32,6 +32,10 @@
     <form:errors path="postalCode" cssClass="error"></form:errors>
     <br><br>
 
+    Course code: <form:input path="courseCode"></form:input>
+    <form:errors path="courseCode" cssClass="error"></form:errors>
+    <br><br>
+
     <input type="submit" value="Submit"/>
 </form:form>
 
