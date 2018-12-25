@@ -1,5 +1,6 @@
 package com.luv2code.jdbc;
 
+import com.luv2code.hibernate.demo.entity.Employee;
 import com.luv2code.hibernate.demo.entity.Student;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -32,7 +33,6 @@ public class TestJdbc {
         Session session = factory.getCurrentSession();
         try{
             Student student = new Student("Paul", "Wall", "paul@gmail.com");
-
             session.beginTransaction();
             session.save(student);
             session.getTransaction().commit();
